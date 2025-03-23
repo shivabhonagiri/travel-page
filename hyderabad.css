@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url('https://i.postimg.cc/d12xt9dp/768371a6-cf69-4473-bce6-235cf853c7ca.webp');
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.hyderabad-card {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+}
+
+.hyderabad-card-heading {
+    color: white;
+    font-size: 48px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.hyderabad-card-quatation {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+.hyderabad-card-button {
+    background-color: #ff9800;
+    border: none;
+    border-width: 0px;
+    border-radius: 8px;
+    font-size: 24px;
+    color: white;
+    height: 50px;
+    transition: 0.3s;
+}
+
+.favourite-place-section {
+    background-image: url('https://i.postimg.cc/d12xt9dp/768371a6-cf69-4473-bce6-235cf853c7ca.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.section-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.place-card {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 18px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.place-card:hover {
+    transform: scale(1.05);
+    /* Slight zoom effect */
+}
+
+.place-image {
+    width: 100%;
+}
+
+.place-heading {
+    font-family: "Sans-Serif";
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.place-description {
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    background-color: #ff9800;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
